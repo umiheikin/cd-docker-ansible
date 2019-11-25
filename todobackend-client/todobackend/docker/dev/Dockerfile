@@ -1,5 +1,5 @@
-FROM jmenga/todobackend-base:latest
-MAINTAINER Justin Menga <justin.menga@gmail.com>
+FROM yurok909/todobackend-base:latest
+MAINTAINER Yuriy Miheikin <umiheikin@yandex.ru>
 
 # Install dev/build dependencies
 RUN apt-get update && \

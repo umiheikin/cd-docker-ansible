@@ -16,8 +16,8 @@ RUN apt-get update && \
 # Create virtual environment
 # Upgrade PIP in virtual environment to latest version
 RUN virtualenv /appenv && \
-    . /appenv/bin/activate
-#    pip install pip --upgrade
+    . /appenv/bin/activate && \
+    pip install pip --upgrade
 
 # Add entrypoint script
 ADD scripts/entrypoint.sh /usr/local/bin/entrypoint.sh

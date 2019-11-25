@@ -1,0 +1,24 @@
+{
+  "name": "todobackend-specs",
+  "version": "1.0.0",
+  "description": "Todobackend acceptance testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Yuriy Mikheikin",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.2.0",
+    "mocha-jenkins-reporter": "^0.4.2",
+    "superagent": "^5.1.0",
+    "superagent-promise": "^1.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
+}

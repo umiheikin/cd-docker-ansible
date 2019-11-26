@@ -1,0 +1,5 @@
+FROM nginx
+MAINTAINER Yuriy Miheikin <umiheikin@yandex.ru>
+
+#Copy configuration file
+COPY todobackend.conf /etc/nginx/conf.d/todobackend.conf

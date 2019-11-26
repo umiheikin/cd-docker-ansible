@@ -26,7 +26,7 @@ describe('Cross Origin Requests', function() {
   });
 
   it('should allow all origins', function() {
-    return assert(result, 'header.access-control-allow-origin').to.eql('*');
+    return assert(result, 'header.access-control-allow-origin').to.equal('*');
   });
 });
 

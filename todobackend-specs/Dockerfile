@@ -17,7 +17,7 @@ COPY . /app
 WORKDIR /app
 
 # Install application dependencies
-RUN npm install -g mocha && \
+RUN npm install -g mocha@5.2.0 && \
     npm install
 
 # Set mocha test runner as entrypoint
